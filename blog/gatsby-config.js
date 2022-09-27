@@ -13,10 +13,10 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-contentful`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        spaceId: `imi0ootzdn5x`,
+        accessToken: `BX39ktMj3nsJeRrBqAKJFGKMMv8US6fbASVb8jgmkRc`,
       },
     },
     `gatsby-transformer-sharp`,
